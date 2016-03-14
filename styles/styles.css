@@ -1,0 +1,29 @@
+/* Global Layout Set-up */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Calibri, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styles */
+
+/* Tablet Media Query */
+
+/* Desktop Media Query */
