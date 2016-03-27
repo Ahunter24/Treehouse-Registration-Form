@@ -24,11 +24,15 @@ a:hover {
 
 /* Section Styles */
 
+fieldset {
+  border: none;
+}
+
 /* Tablet Media Query */
 
 /* Desktop Media Query */
 
 @media screen and (min-width: 760px) {
 
-  
+
 }
