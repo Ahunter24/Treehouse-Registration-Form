@@ -12,14 +12,19 @@ body {
   background: #fff;
 }
 
-/* Link Styles */
+/* Header Styles */
 
-a {
-  text-decoration: none;
-  color: #000;
+header {
+  background: #2d3945;
 }
-a:hover {
-  text-decoration: underline;
+
+header h2 {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10% 0;
+  font-size: 18px;
+  margin: 0;
+  font-weight: normal;
 }
 
 /* Section Styles */
