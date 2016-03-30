@@ -38,7 +38,7 @@ header h2 {
 .form-header p {
   font-size: 12px;
   font-weight: normal;
-  color: #bbb;
+  color: #aaa;
   padding-bottom: 2.5%;
   margin: 2.5% 0 5%;
 }
@@ -57,7 +57,7 @@ label, input {
 }
 label {
   font-size: 12px;
-  color: #bbb;
+  color: #aaa;
   padding: 2% 0;
 }
 input {
@@ -66,6 +66,14 @@ input {
   background-color: #eee;
   border-radius: 4px;
   border: none;
+}
+::-webkit-input-placeholder {
+  text-align: right;
+  font-style: italic;
+}
+#zip-code {
+  width: 50%;
+  margin-bottom: 5%;
 }
 .contact {
   border-top: 2px solid #000;
