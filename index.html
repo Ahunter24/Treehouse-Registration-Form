@@ -13,7 +13,7 @@
   <header>
     <h2>The Code Review</h2>
   </header>
-  <form>
+  <form action="index.html" method="post">
     <div class="form-header">
       <h3>Signup for our newsletter</h3>
       <p>Get the latest news on how your code is doing right in your inbox</p>
@@ -32,7 +32,14 @@
       <label for="city">City</label>
       <input type="text" id="city" name="user_city">
       <label for="state">State</label>
-      <input type="text" id="state" name="user_state">
+      <select id="state" name="user_state">
+          <option value="" disabled selected hidden>Choose State</option>
+          <option value="california">CA</option>
+          <option value="florida">FL</option>
+          <option value="kentucky">KY</option>
+          <option value="michigan">MI</option>
+          <option value="texas">TX</option>
+      </select>
       <label for="zip-code">Zip Code</label>
       <input type="text" id="zip-code" name="user_zip">
     </fieldset>

@@ -62,7 +62,7 @@ label {
   color: #aaa;
   padding: 2.5% 0;
 }
-input {
+input, #state {
   width: 100%;
   padding: 5%;
   margin: 1% 0;
