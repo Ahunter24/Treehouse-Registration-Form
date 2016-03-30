@@ -58,14 +58,20 @@ label, input {
 label {
   font-size: 12px;
   color: #aaa;
-  padding: 2% 0;
+  padding: 2.5% 0;
 }
 input {
   width: 100%;
   padding: 5%;
+  margin: 1% 0;
   background-color: #eee;
   border-radius: 4px;
   border: none;
+}
+input:focus {
+  outline: 0;
+  border: 2px solid #2d3945;
+  border-radius: 4px;
 }
 ::-webkit-input-placeholder {
   text-align: right;
@@ -73,7 +79,7 @@ input {
 }
 #zip-code {
   width: 50%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 .contact {
   border-top: 2px solid #000;
