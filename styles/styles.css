@@ -44,13 +44,20 @@ header h2 {
 }
 fieldset {
   border: none;
+  margin: 0.5% 5%;
+  padding: 0;
 }
 fieldset h3 {
   text-align: left;
+  font-size: 16px;
 }
 label, input {
   display: block;
   text-align: left;
+}
+.contact {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
 /* Tablet Media Query */
