@@ -34,6 +34,7 @@ header h2 {
 }
 .form-header h3 {
   font-size: 16px;
+  font-weight: bold;
 }
 .form-header p {
   font-size: 12px;
@@ -44,12 +45,13 @@ header h2 {
 }
 fieldset {
   border: none;
-  margin: 0.5% 5%;
   padding: 0;
 }
-fieldset h3 {
+legend {
   text-align: left;
   font-size: 16px;
+  font-weight: bold;
+  padding: 7.5% 0 5%;
 }
 label, input {
   display: block;
@@ -84,6 +86,7 @@ input:focus {
 .contact {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
+  margin: 0.5% 5%;
 }
 
 /* Tablet Media Query */
