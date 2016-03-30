@@ -45,6 +45,13 @@ header h2 {
 fieldset {
   border: none;
 }
+fieldset h3 {
+  text-align: left;
+}
+label, input {
+  display: block;
+  text-align: left;
+}
 
 /* Tablet Media Query */
 
