@@ -100,6 +100,9 @@ select:focus {
   border-bottom: 2px solid #000;
   margin: 0.5% 5%;
 }
+.newsletter {
+  margin: 0.5% 5%;
+}
 
 /* Tablet Media Query */
 
