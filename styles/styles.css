@@ -71,11 +71,12 @@ option {
   background-color: #eee;
   border-radius: 4px;
   border: none;
-  -webkit-appearance: none;
 }
 select {
-  font-size: 14px;
+  font-size: 12px;
   color: #aaa;
+  font-family: 'Merriweather', serif;
+  -webkit-appearance: none;
 }
 input:focus,
 select:focus {
@@ -86,6 +87,9 @@ select:focus {
 ::-webkit-input-placeholder {
   text-align: right;
   font-style: italic;
+  color: #aaa;
+  font-family: 'Merriweather', serif;
+  padding-right: 1%;
 }
 #zip-code {
   width: 50%;
