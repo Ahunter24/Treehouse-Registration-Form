@@ -103,7 +103,9 @@ select:focus {
 .newsletter {
   margin: 0 5%;
 }
-
+.newsletter label {
+  display: inline;
+}
 /* Tablet Media Query */
 
 
