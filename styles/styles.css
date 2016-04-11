@@ -129,8 +129,12 @@ textarea {
 
 /* Footer */
 
-footer h4 {
+footer p {
   text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: #aaa;
+  font-weight: normal;
 }
 /* Tablet Media Query */
 
