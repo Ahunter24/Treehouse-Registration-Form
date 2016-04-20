@@ -148,4 +148,13 @@ footer p {
 
 /* Desktop Media Query */
 
-@media screen and (min-width: 760px) {}
+@media screen and (min-width: 760px) {
+
+  form {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  header h2 {
+    padding: 2% 0;
+  }
+}
