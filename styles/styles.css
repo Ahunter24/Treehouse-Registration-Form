@@ -77,7 +77,6 @@ select {
   color: #aaa;
   font-family: 'Merriweather', serif;
   -webkit-appearance: none;
-  background: #eee url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat center;
 }
 input:focus, select:focus {
   outline: 0;
@@ -146,9 +145,6 @@ footer p {
   font-weight: normal;
   margin-bottom: 15%;
 }
-
-/* Tablet Media Query */
-
 
 /* Desktop Media Query */
 
