@@ -149,7 +149,6 @@ footer p {
 /* Desktop Media Query */
 
 @media screen and (min-width: 760px) {
-
   form {
     max-width: 768px;
     margin: 0 auto;
@@ -159,5 +158,8 @@ footer p {
   }
   .form-header {
     padding: 5% 0 0;
+  }
+  .form-header h3 {
+    font-size: 20px;
   }
 }
