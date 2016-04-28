@@ -179,8 +179,7 @@ footer p {
   #zip-code {
     width: 25%;
   }
-  legend, .newsletter label,
-  .form-header p {
+  legend, .newsletter label, .form-header p {
     font-size: 18px;
   }
   .clearfix {
