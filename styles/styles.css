@@ -105,6 +105,9 @@ input:focus, select:focus {
 .newsletter legend {
   padding: 5% 0 2.5%;
 }
+.newsletter h3 {
+  color: #aaa;
+}
 .newsletter input {
   width: 5%;
   margin: 2% 0;
