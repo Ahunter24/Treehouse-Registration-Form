@@ -107,6 +107,7 @@ input:focus, select:focus {
 }
 .newsletter h3 {
   color: #aaa;
+  font-size: 16px;
 }
 .newsletter input {
   width: 5%;
@@ -182,7 +183,7 @@ footer p {
   #zip-code {
     width: 25%;
   }
-  legend, .newsletter label, .form-header p {
+  legend, .newsletter label, .newsletter h3, .form-header p {
     font-size: 18px;
   }
   .clearfix {
